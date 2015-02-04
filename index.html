@@ -1,23 +1,50 @@
 ---
-layout: default
+layout: home
 ---
 
-<div class="home">
+<section class="featured-theme">
+    <div class="featured-info">
+        <h2>Writer</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae quaerat alias possimus labore sapiente aut cupiditate est praesentium dolores vel repellendus illum, quam itaque quisquam officiis eum, voluptatibus harum officia.</p>
+    </div>
+    <img src="images/preview.png">
+</section>
 
-  <h1 class="page-heading">Posts</h1>
+<section class="theme-previews">
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <div class="theme-preview">
+        <img src="images/preview-2.png">
+        <div class="theme-info">
+            <h2>Lens</h2>
+            <span class="cost">$15</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In impedit illo, id natus magni vero mollitia, fuga laborum libero.</p>
+        </div>
+    </div>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+    <div class="theme-preview">
+        <img src="images/preview-2.png">
+        <div class="theme-info">
+            <h2>Cinema</h2>
+            <span class="cost">$15</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In impedit illo, id natus magni vero mollitia, fuga laborum libero.</p>
+        </div>
+    </div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    <div class="theme-preview">
+        <img src="images/preview-2.png">
+        <div class="theme-info">
+            <h2>Theme Name</h2>
+            <span class="cost">$15</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In impedit illo, id natus magni vero mollitia, fuga laborum libero.</p>
+        </div>
+    </div>
 
-</div>
+    <div class="theme-preview">
+        <img src="images/preview-2.png">
+        <div class="theme-info">
+            <h2>Theme Name</h2>
+            <span class="cost">$15</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In impedit illo, id natus magni vero mollitia, fuga laborum libero.</p>
+        </div>
+    </div>
+</section>
