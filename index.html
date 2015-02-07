@@ -14,19 +14,23 @@ layout: home
         </div>
         <a href="{{ theme.permalink }}"><img src="{{ site.baseurl }}/images/{{ theme.thumbnail_name }}.png"></a>
     </section>
-
-    <section class="theme-previews">
-    {% else %}
-        <div class="theme-preview animated fadeInUp delay-3">
-            <a href="{{ theme.permalink }}"><img src="{{site.baseurl}}/images/{{ theme.thumbnail_name }}.png"></a>
-            <div class="theme-info">
-                <h2>{{ theme.title }}</h2>
-                <span class="cost">${{ theme.price }}</span>
-                <p>{{ theme.description }}</p>
-                <a href="{{ theme.permalink }}">Preview</a>
-                <a href="{{ theme.buy_url }}">Buy</a>
-            </div>
-        </div>
     {% endif %}
-    </section>
 {% endfor %}
+
+<section class="theme-previews">
+{% for theme in site.categories.preview %}
+    {% if theme.is_featured == false%}
+            <div class="theme-preview animated fadeInUp delay-3">
+            <a href="{{ theme.permalink }}"><img src="{{site.baseurl}}/images/{{ theme.thumbnail_name }}.png"></a>
+                <div class="theme-info">
+                    <h2>{{ theme.title }}</h2>
+                    <span class="cost">${{ theme.price }}</span>
+                    <p>{{ theme.description }}</p>
+                    <a href="{{ theme.permalink }}">Preview</a>
+                    <a href="{{ theme.buy_url }}">Buy</a>
+                </div>
+            </div>
+        {% endif %}
+{% endfor %}
+</section>
+
