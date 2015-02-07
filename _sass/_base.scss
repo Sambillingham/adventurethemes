@@ -136,7 +136,7 @@ a {
     }
     img {
         @include span-columns(4 of 8);
-        transform: translate(20px)
+        transform: translate(15px, -13px) scale(1.1);
     }
     .featured-info {
         @include span-columns(4 of 8);
