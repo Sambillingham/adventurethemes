@@ -67,7 +67,18 @@ img {
     max-width: 100%;
 }
 
-
+.site-intro {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    color: rgba(255,255,255,0.78);
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 15px;
+}
 a {
     font-family: 'new_athletic_m54regular', arial, sans-serif;
     text-decoration: none;
