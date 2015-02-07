@@ -2,80 +2,30 @@
 layout: home
 ---
 
-<section class="featured-theme animated fadeInUp delay-1">
-    <div class="featured-info">
-        <h2>Writer</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae quaerat alias possimus labore sapiente aut cupiditate est praesentium dolores vel repellendus illum, quam itaque quisquam officiis eum, voluptatibus harum officia.</p>
-        <a href="#">Preview</a>
-        <a href="#">Buy</a>
-    </div>
-    <a href="#"><img src="images/preview-writer.png"></a>
-</section>
-
-<section class="theme-previews">
-
-    <div class="theme-preview animated fadeInUp delay-3">
-        <a href="#"><img src="images/preview-showcase.png"></a>
-        <div class="theme-info">
-            <h2>Showcase</h2>
-            <span class="cost">$15</span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In impedit illo, id natus magni vero mollitia, fuga laborum libero.</p>
+{% for theme in site.categories.preview %}
+    {% if theme.is_featured %}
+    <section class="featured-theme animated fadeInUp delay-1">
+        <div class="featured-info">
+            <h2>Writer</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae quaerat alias possimus labore sapiente aut cupiditate est praesentium dolores vel repellendus illum, quam itaque quisquam officiis eum, voluptatibus harum officia.</p>
             <a href="#">Preview</a>
             <a href="#">Buy</a>
         </div>
-    </div>
+        <a href="#"><img src="images/preview-writer.png"></a>
+    </section>
 
-    <div class="theme-preview animated fadeInUp delay-3">
-        <a href="#"><img src="images/preview-cinema.png"></a>
-        <div class="theme-info">
-            <h2>Cinema</h2>
-            <span class="cost">$15</span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In impedit illo, id natus magni vero mollitia, fuga laborum libero.</p>
-            <a href="#">Preview</a>
-            <a href="#">Buy</a>
+    <section class="theme-previews">
+    {% else %}
+        <div class="theme-preview animated fadeInUp delay-3">
+            <a href="#"><img src="images/preview-showcase.png"></a>
+            <div class="theme-info">
+                <h2>Showcase</h2>
+                <span class="cost">$15</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In impedit illo, id natus magni vero mollitia, fuga laborum libero.</p>
+                <a href="#">Preview</a>
+                <a href="#">Buy</a>
+            </div>
         </div>
-    </div>
-
-    <div class="theme-preview animated fadeInUp delay-3">
-        <a href="#"><img src="images/preview-bootstagram.png"></a>
-        <div class="theme-info">
-            <h2>Bootstagram</h2>
-            <span class="cost">$20</span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In impedit illo, id natus magni vero mollitia, fuga laborum libero.</p>
-            <a href="#">Preview</a>
-            <a href="#">Buy</a>
-        </div>
-    </div>
-
-    <div class="theme-preview animated fadeInUp delay-3">
-        <a href="#"><img src="images/preview-journey.png"></a>
-        <div class="theme-info">
-            <h2>Journey</h2>
-            <span class="cost">$15</span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In impedit illo, id natus magni vero mollitia, fuga laborum libero.</p>
-            <a href="#">Preview</a>
-            <a href="#">Buy</a>
-        </div>
-    </div>
-
-    <div class="theme-preview animated fadeInUp delay-3">
-        <a href="#"><img src="images/preview-prime.png"></a>
-        <div class="theme-info">
-            <h2>Prime</h2>
-            <span class="cost">$15</span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In impedit illo, id natus magni vero mollitia, fuga laborum libero.</p>
-            <a href="#">Preview</a>
-            <a href="#">Buy</a>
-        </div>
-    </div>
-    <div class="theme-preview animated fadeInUp delay-3">
-        <a href="#"><img src="images/preview-lens.png"></a>
-        <div class="theme-info">
-            <h2>Theme Name</h2>
-            <span class="cost">$15</span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In impedit illo, id natus magni vero mollitia, fuga laborum libero.</p>
-            <a href="#">Preview</a>
-            <a href="#">Buy</a>
-        </div>
-    </div>
-</section>
+    {% endif %}
+    </section>
+{% endfor %}
