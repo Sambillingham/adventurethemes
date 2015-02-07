@@ -6,24 +6,25 @@ layout: home
     {% if theme.is_featured %}
     <section class="featured-theme animated fadeInUp delay-1">
         <div class="featured-info">
-            <h2>Writer</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae quaerat alias possimus labore sapiente aut cupiditate est praesentium dolores vel repellendus illum, quam itaque quisquam officiis eum, voluptatibus harum officia.</p>
-            <a href="#">Preview</a>
-            <a href="#">Buy</a>
+            <h2>{{ theme.title }}</h2>
+            <span class="cost">${{ theme.price }}</span>
+            <p>{{ theme.description }}</p>
+            <a href="{{ theme.permalink }}">Preview</a>
+            <a href="{{ theme.buy_url }}">Buy</a>
         </div>
-        <a href="#"><img src="images/preview-writer.png"></a>
+        <a href="{{ theme.permalink }}"><img src="{{ site.baseurl }}/images/{{ theme.thumbnail_name }}.png"></a>
     </section>
 
     <section class="theme-previews">
     {% else %}
         <div class="theme-preview animated fadeInUp delay-3">
-            <a href="#"><img src="images/preview-showcase.png"></a>
+            <a href="{{ theme.permalink }}"><img src="{{site.baseurl}}/images/{{ theme.thumbnail_name }}.png"></a>
             <div class="theme-info">
-                <h2>Showcase</h2>
-                <span class="cost">$15</span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In impedit illo, id natus magni vero mollitia, fuga laborum libero.</p>
-                <a href="#">Preview</a>
-                <a href="#">Buy</a>
+                <h2>{{ theme.title }}</h2>
+                <span class="cost">${{ theme.price }}</span>
+                <p>{{ theme.description }}</p>
+                <a href="{{ theme.permalink }}">Preview</a>
+                <a href="{{ theme.buy_url }}">Buy</a>
             </div>
         </div>
     {% endif %}
