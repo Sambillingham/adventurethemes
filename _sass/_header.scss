@@ -1,7 +1,7 @@
 
 header {
     padding: 200px 0;
-    background-color: rgba(40,40,40,0.8);
+    background: rgba(40,40,40,1);
     text-align: center;
     margin-bottom: 50px;
 }
@@ -21,4 +21,7 @@ header h1 {
         margin-left: 30px;
         vertical-align: middle;
     }
+}
+.vide-wrapper {
+    opacity: 0;
 }
