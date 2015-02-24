@@ -24,6 +24,21 @@ $(document).ready(function(){
         $(this).velocity({ "margin-left": 0}, 600);
         $('.js-logo-type').velocity({opacity : 1}, 800);
     });
+
+    function getQueryVariable(variable){
+       var query = window.location.search.substring(1);
+       var vars = query.split("&");
+       for (var i=0;i<vars.length;i++) {
+               var pair = vars[i].split("=");
+               if(pair[0] == variable){return pair[1];}
+       }
+       return(false);
+    }
+    if ( getQueryVariable('submit') == 'true') {
+        $('.form-message').addClass('sucess');
+        $('.form-message').text('Thank You, We will email you back shortly');
+    }
+
 });
 
 

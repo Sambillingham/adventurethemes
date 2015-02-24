@@ -1,0 +1,38 @@
+form {
+    @include span-columns(6);
+    padding: 0 0 50px;
+    input,
+    textarea {
+        padding: 20px;
+        margin: 10px 0;
+        width: 100%;
+        background-color: #eee;
+        border: solid 4px #ccc;
+        outline: none;
+
+        &:focus {
+            border: solid 4px #aaa;
+
+        }
+    }
+    input[type=submit]{
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 700;
+
+    }
+    textarea {
+        height: 175px;
+        resize: vertical;
+    }
+}
+.form-message {
+    @include span-columns(6);
+    @include omega();
+
+    &.sucess {
+        border-bottom: solid 3px rgb(106, 204, 106);
+        background-color: rgb(181, 255, 181);
+        padding: 10px 25px;
+    }
+}
