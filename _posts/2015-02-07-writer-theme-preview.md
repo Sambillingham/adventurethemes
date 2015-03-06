@@ -1,13 +1,13 @@
 ---
 layout: preview
-title:  "Writer - Minimal Blogging"
+title:  "Writer - Minimal blog for Jekyll"
 date:   2015-02-07 18:31:47
 categories: preview
 is_featured: true
 thumbnail_name: preview-writer
-demo_url: http://thisisembark.com/writer/
+demo_url: http://adventurethemes.com/demo/writer/jekyll/v1-d-20-2/
 info_url: themes/writer
-buy_url : https://wrapbootstrap.com/theme/writer-modern-writing-platform-WB0M7M840
+buy_url :  http://themeforest.net/item/writer-a-minimal-blog-for-jekyll/10562560
 description: With a focus on minimal design anf typography writer delivers a quality user experince. Built for blogging or long form writing content looks clean and readable on any device.
 price: 20
 permalink: /preview/writer
