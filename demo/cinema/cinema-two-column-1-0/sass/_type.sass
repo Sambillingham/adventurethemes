@@ -1,0 +1,96 @@
+h1,
+.h1
+    font-weight: 100
+    text-transform: uppercase
+    letter-spacing: 3px
+    border: solid 1px #ffffff
+    display: inline-block
+    padding: 10px 14px
+    font-size: 20px
+    &.dark
+        color: #222
+        border: solid 1px #222
+
+    +breakpoint(sm)
+        font-size: 36px
+        padding: 15px 20px
+
+h2,
+.h2
+    font-size: 14px
+    letter-spacing: 1px
+    text-transform: uppercase
+    font-weight: 100
+    margin: 10px 0
+    text-align: center
+
+    &.dark
+        color: #222
+
+    +breakpoint(sm)
+        font-size: 18px
+
+h3,
+.h3
+    margin: 0 0 20px 0
+    text-transform: uppercase
+    letter-spacing: 1px
+    font-size: 18px
+    color: #222
+
+    +breakpoint(sm)
+        font-size: 20px
+
+.project
+
+    h1,
+    .h1
+        +breakpoint(sm)
+            font-size: 30px
+    h2,
+    .h2
+        +breakpoint(sm)
+            font-size: 15px
+
+    h3,
+    .h3
+        +breakpoint(sm)
+            font-size: 18px
+a,
+    color: #111
+    border-bottom: solid 2px
+    text-transform: uppercase
+    font-size: 11px
+    font-weight: 600
+    text-decoration: none
+    transition: all 0.6s
+
+    &:hover,
+    &:focus
+        text-decoration: none
+        color: #000
+
+.text-3-columns
+    +breakpoint(md)
+        -webkit-column-count: 3 /* Chrome, Safari, Opera */
+        -moz-column-count: 3 /* Firefox */
+        column-count: 3
+
+.text-2-columns
+    +breakpoint(md)
+        -webkit-column-count: 2 /* Chrome, Safari, Opera */
+        -moz-column-count: 2 /* Firefox */
+        column-count: 2
+
+blockquote
+    margin-top: 20px
+    margin-bottom: 0
+
+.text-right
+    text-align: right
+
+.quote-caption
+    margin: 0 0 20px 0
+
+.long-form
+    font-size: 16px

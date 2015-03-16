@@ -1,0 +1,101 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300,100)
+
+//Mixins
+@import "mixins"
+@import "scss-mixins"
+
+//Includes
+@import "animate"
+@import "type"
+@import "preloader"
+
+html
+    font-size: 62.5%
+
+body
+    background: #000
+    font-family: 'Roboto', "franklin-gothic-urw", gothic, sans-serif
+    color: #ffffff
+    font-weight: 400
+
+img
+    max-width: 100%
+
+header
+    height: 500px
+    padding: 180px 0 0 0
+    text-align: center
+    position: relative
+
+.project-video
+    height: 350px
+    text-align: center
+    padding: 80px 0 0 0
+    position: relative
+
+    span
+        text-transform: uppercase
+        letter-spacing: 2px
+        font-weight: 100
+        padding: 0 0 3px 0
+        border-bottom: solid 1px #ffffff
+        position: absolute
+        bottom: 15px
+        left: 50%
+        transform: translatex(-50%)
+        cursor: pointer
+
+.overlay
+    height: 100%
+    width: 100%
+    position: absolute
+    top: 0
+    left: 0
+    z-index: -1
+    +linear-gradient( rgba(0,0,0,0.58) 0%, transparent 35%, transparent 75%, rgba(0,0,0,0.58) 100%)
+
+.project-content
+    background: #fafafa
+    color: #222
+    display: none
+    padding-top: 50px
+    padding-bottom: 50px
+    z-index: 1
+    position: relative
+
+.content-title
+    margin-bottom: 30px
+
+.content-image
+    margin-top: 10px
+    margin-bottom: 20px
+
+.portfolio-image
+    margin-bottom: 40px
+
+.close
+    position: absolute
+    top: 0
+    right: 0
+    line-height: 50px
+    font-size: 40px
+    display: block
+    width: 50px
+    text-align: center
+
+// section:nth-of-type(odd)
+//     .project-content
+//         transform: translatex(0%)
+
++breakpoint(md)
+    section:nth-of-type(even)
+        .project-content
+            transform: translatex(-50%)
+
+    section
+        width: 50%
+        float: left
+
+    .spacer
+        float: left
+        width: 50%

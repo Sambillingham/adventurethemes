@@ -1,0 +1,2506 @@
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 9, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_normalize.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+/* line 19, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_normalize.scss */
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11 and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+/* line 32, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+/* line 52, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_normalize.scss */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 65, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+/* line 75, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_normalize.scss */
+[hidden],
+template {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+/* line 87, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_normalize.scss */
+a {
+  background: transparent;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+/* line 95, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_normalize.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+/* line 107, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+/* line 115, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_normalize.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+/* line 124, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+/* line 133, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+/* line 142, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+/* line 151, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 159, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 167, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 171, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+/* line 182, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_normalize.scss */
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+/* line 190, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+/* line 201, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_normalize.scss */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+/* line 209, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_normalize.scss */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+/* line 219, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_normalize.scss */
+pre {
+  overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+/* line 227, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+/* line 250, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_normalize.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+/* line 264, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_normalize.scss */
+button {
+  overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+/* line 275, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_normalize.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 288, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+/* line 300, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_normalize.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+/* line 309, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 320, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_normalize.scss */
+input {
+  line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+/* line 332, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+/* line 344, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_normalize.scss */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 355, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+/* line 368, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+/* line 377, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 388, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_normalize.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+/* line 397, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_normalize.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+/* line 406, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_normalize.scss */
+optgroup {
+  font-weight: bold;
+}
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+/* line 417, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 422, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_normalize.scss */
+td,
+th {
+  padding: 0;
+}
+
+/* line 2, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/neat/grid/_grid.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 1, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+.animated {
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -ms-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  animation-duration: 1s;
+}
+
+/* line 14, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+.animated-slow {
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1.5s;
+  -moz-animation-duration: 1.5s;
+  -ms-animation-duration: 1.5s;
+  -o-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  animation-delay: 200ms;
+  /* W3C and Opera */
+  -moz-animation-delay: 200ms;
+  /* Firefox */
+  -webkit-animation-delay: 200ms;
+}
+
+/* line 30, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+.animated.hinge {
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -ms-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes fadeIn {
+  /* line 39, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 39, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeIn {
+  /* line 43, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 44, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadeIn {
+  /* line 48, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 49, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  /* line 53, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 54, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+  100% {
+    opacity: 1;
+  }
+}
+/* line 57, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  -moz-animation-name: fadeIn;
+  -o-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+/* line 68, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+.delay-0 {
+  animation-delay: 0ms;
+  /* W3C and Opera */
+  -moz-animation-delay: 0ms;
+  /* Firefox */
+  -webkit-animation-delay: 0ms;
+}
+
+/* line 68, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+.delay-1 {
+  animation-delay: 500ms;
+  /* W3C and Opera */
+  -moz-animation-delay: 500ms;
+  /* Firefox */
+  -webkit-animation-delay: 500ms;
+}
+
+/* line 68, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+.delay-2 {
+  animation-delay: 1000ms;
+  /* W3C and Opera */
+  -moz-animation-delay: 1000ms;
+  /* Firefox */
+  -webkit-animation-delay: 1000ms;
+}
+
+/* line 68, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+.delay-3 {
+  animation-delay: 1500ms;
+  /* W3C and Opera */
+  -moz-animation-delay: 1500ms;
+  /* Firefox */
+  -webkit-animation-delay: 1500ms;
+}
+
+/* line 68, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+.delay-4 {
+  animation-delay: 2000ms;
+  /* W3C and Opera */
+  -moz-animation-delay: 2000ms;
+  /* Firefox */
+  -webkit-animation-delay: 2000ms;
+}
+
+/* line 68, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+.delay-5 {
+  animation-delay: 2500ms;
+  /* W3C and Opera */
+  -moz-animation-delay: 2500ms;
+  /* Firefox */
+  -webkit-animation-delay: 2500ms;
+}
+
+/* line 68, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+.delay-6 {
+  animation-delay: 3000ms;
+  /* W3C and Opera */
+  -moz-animation-delay: 3000ms;
+  /* Firefox */
+  -webkit-animation-delay: 3000ms;
+}
+
+/* line 68, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+.delay-7 {
+  animation-delay: 3500ms;
+  /* W3C and Opera */
+  -moz-animation-delay: 3500ms;
+  /* Firefox */
+  -webkit-animation-delay: 3500ms;
+}
+
+/* line 68, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+.delay-8 {
+  animation-delay: 4000ms;
+  /* W3C and Opera */
+  -moz-animation-delay: 4000ms;
+  /* Firefox */
+  -webkit-animation-delay: 4000ms;
+}
+
+/* line 68, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+.delay-9 {
+  animation-delay: 4500ms;
+  /* W3C and Opera */
+  -moz-animation-delay: 4500ms;
+  /* Firefox */
+  -webkit-animation-delay: 4500ms;
+}
+
+/* line 68, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+.delay-10 {
+  animation-delay: 5000ms;
+  /* W3C and Opera */
+  -moz-animation-delay: 5000ms;
+  /* Firefox */
+  -webkit-animation-delay: 5000ms;
+}
+
+/* line 68, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+.delay-11 {
+  animation-delay: 5500ms;
+  /* W3C and Opera */
+  -moz-animation-delay: 5500ms;
+  /* Firefox */
+  -webkit-animation-delay: 5500ms;
+}
+
+/* line 68, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+.delay-12 {
+  animation-delay: 6000ms;
+  /* W3C and Opera */
+  -moz-animation-delay: 6000ms;
+  /* Firefox */
+  -webkit-animation-delay: 6000ms;
+}
+
+/* line 68, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+.delay-13 {
+  animation-delay: 6500ms;
+  /* W3C and Opera */
+  -moz-animation-delay: 6500ms;
+  /* Firefox */
+  -webkit-animation-delay: 6500ms;
+}
+
+/* line 68, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+.delay-14 {
+  animation-delay: 7000ms;
+  /* W3C and Opera */
+  -moz-animation-delay: 7000ms;
+  /* Firefox */
+  -webkit-animation-delay: 7000ms;
+}
+
+/* line 68, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+.delay-15 {
+  animation-delay: 7500ms;
+  /* W3C and Opera */
+  -moz-animation-delay: 7500ms;
+  /* Firefox */
+  -webkit-animation-delay: 7500ms;
+}
+
+/* line 68, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+.delay-16 {
+  animation-delay: 8000ms;
+  /* W3C and Opera */
+  -moz-animation-delay: 8000ms;
+  /* Firefox */
+  -webkit-animation-delay: 8000ms;
+}
+
+/* line 68, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+.delay-17 {
+  animation-delay: 8500ms;
+  /* W3C and Opera */
+  -moz-animation-delay: 8500ms;
+  /* Firefox */
+  -webkit-animation-delay: 8500ms;
+}
+
+/* line 68, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+.delay-18 {
+  animation-delay: 9000ms;
+  /* W3C and Opera */
+  -moz-animation-delay: 9000ms;
+  /* Firefox */
+  -webkit-animation-delay: 9000ms;
+}
+
+/* line 68, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+.delay-19 {
+  animation-delay: 9500ms;
+  /* W3C and Opera */
+  -moz-animation-delay: 9500ms;
+  /* Firefox */
+  -webkit-animation-delay: 9500ms;
+}
+
+@-webkit-keyframes fadeInUp {
+  /* line 77, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+  }
+
+  /* line 82, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+@-moz-keyframes fadeInUp {
+  /* line 89, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+  0% {
+    opacity: 0;
+    -moz-transform: translateY(20px);
+  }
+
+  /* line 94, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+  100% {
+    opacity: 1;
+    -moz-transform: translateY(0);
+  }
+}
+@-o-keyframes fadeInUp {
+  /* line 101, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+  0% {
+    opacity: 0;
+    -o-transform: translateY(20px);
+  }
+
+  /* line 106, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+  100% {
+    opacity: 1;
+    -o-transform: translateY(0);
+  }
+}
+@keyframes fadeInUp {
+  /* line 113, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  /* line 118, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* line 124, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  -moz-animation-name: fadeInUp;
+  -o-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+@keyframes bounceAround {
+  /* line 133, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  /* line 139, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+  40% {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+
+  /* line 145, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+  60% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@-webkit-keyframes bounceAround {
+  /* line 156, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+  0% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  /* line 163, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+  50% {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+
+  /* line 168, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+  100% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@-moz-keyframes bounceAround {
+  /* line 176, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+  0% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  /* line 183, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+  50% {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+
+  /* line 188, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+  100% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@-o-keyframes bounceAround {
+  /* line 196, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+  0% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  /* line 203, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+  50% {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+
+  /* line 208, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+  100% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes bounceAround {
+  /* line 216, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+  0% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  /* line 223, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+  50% {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+
+  /* line 228, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+  100% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+/* line 235, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+.bounceAround {
+  -webkit-animation-name: bounceAround;
+  -moz-animation-name: bounceAround;
+  -o-animation-name: bounceAround;
+  animation-name: bounceAround;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  -ms-animation-duration: 3s;
+  -o-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeOutDown {
+  /* line 258, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  /* line 264, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+    height: 0;
+  }
+}
+@keyframes fadeOutDown {
+  /* line 273, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  /* line 280, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    transform: translateY(20px);
+    height: 0;
+  }
+}
+/* line 289, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+.fadeOutDown {
+  -webkit-animation-name: fadeOutDown;
+  animation-name: fadeOutDown;
+}
+
+@-webkit-keyframes fadeInDown {
+  /* line 297, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  /* line 304, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes fadeInDown {
+  /* line 312, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  /* line 319, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+/* line 327, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+@-webkit-keyframes fadeInDownBig {
+  /* line 333, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-2000px);
+    transform: translateY(-2000px);
+  }
+
+  /* line 339, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_animate.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+/* line 23, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_shadow.scss */
+.shadow-salmon {
+  box-shadow: #bd5764 1px 1px, #bd5764 2px 2px, #bd5764 3px 3px, #bd5764 4px 4px, #bd5764 5px 5px, #bd5764 6px 6px, #bd5764 7px 7px, #bd5764 8px 8px, #bd5764 9px 9px, #bf5865 10px 10px, #c15966 11px 11px, #c45a67 12px 12px, #c65b68 13px 13px, #c85c6a 14px 14px, #cb5d6b 15px 15px, #cd5e6c 16px 16px, #d05f6d 17px 17px, #d2606f 18px 18px, #d46170 19px 19px, #d76371 20px 20px, #d96472 21px 21px, #db6574 22px 22px, #de6675 23px 23px, #e06776 24px 24px, #e36877 25px 25px, #e56979 26px 26px, #e76a7a 27px 27px, #ea6b7b 28px 28px, #ec6c7c 29px 29px, #ef6e7e 30px 30px;
+  width: 100%;
+  max-width: 794px;
+  height: 175px;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+@media (min-width: 500px) {
+  /* line 23, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_shadow.scss */
+  .shadow-salmon {
+    height: 318px;
+  }
+}
+@media (min-width: 830px) {
+  /* line 23, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_shadow.scss */
+  .shadow-salmon {
+    height: 543px;
+  }
+}
+
+/* line 57, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_shadow.scss */
+.shadow-sky {
+  box-shadow: #5aa4c1 1px 1px, #5aa4c1 2px 2px, #5aa4c1 3px 3px, #5aa4c1 4px 4px, #5aa4c1 5px 5px, #5aa4c1 6px 6px, #5aa4c1 7px 7px, #5aa4c1 8px 8px, #5aa4c1 9px 9px, #5ba6c3 10px 10px, #5ca8c5 11px 11px, #5daac8 12px 12px, #5eacca 13px 13px, #5faecd 14px 14px, #60b0cf 15px 15px, #62b2d2 16px 16px, #63b4d4 17px 17px, #64b6d6 18px 18px, #65b8d9 19px 19px, #66bbdb 20px 20px, #67bdde 21px 21px, #68bfe0 22px 22px, #6ac1e3 23px 23px, #6bc3e5 24px 24px, #6cc5e7 25px 25px, #6dc7ea 26px 26px, #6ec9ec 27px 27px, #6fcbef 28px 28px, #70cdf1 29px 29px, #72d0f4 30px 30px;
+  width: 100%;
+  max-width: 794px;
+  height: 175px;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+@media (min-width: 500px) {
+  /* line 57, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_shadow.scss */
+  .shadow-sky {
+    height: 318px;
+  }
+}
+@media (min-width: 830px) {
+  /* line 57, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_shadow.scss */
+  .shadow-sky {
+    height: 543px;
+  }
+}
+
+/* line 91, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_shadow.scss */
+.shadow-asphalt {
+  box-shadow: #293a4a 1px 1px, #293a4a 2px 2px, #293a4a 3px 3px, #293a4a 4px 4px, #293a4a 5px 5px, #293a4a 6px 6px, #293a4a 7px 7px, #293a4a 8px 8px, #293a4a 9px 9px, #293a4a 10px 10px, #2a3b4b 11px 11px, #2a3c4c 12px 12px, #2b3c4d 13px 13px, #2b3d4e 14px 14px, #2c3e4f 15px 15px, #2c3f50 16px 16px, #2d3f51 17px 17px, #2d4052 18px 18px, #2e4153 19px 19px, #2e4154 20px 20px, #2f4255 21px 21px, #2f4356 22px 22px, #304457 23px 23px, #304458 24px 24px, #314559 25px 25px, #31465a 26px 26px, #32465b 27px 27px, #32475c 28px 28px, #33485d 29px 29px, #34495e 30px 30px;
+  width: 100%;
+  max-width: 794px;
+  height: 175px;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+@media (min-width: 500px) {
+  /* line 91, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_shadow.scss */
+  .shadow-asphalt {
+    height: 318px;
+  }
+}
+@media (min-width: 830px) {
+  /* line 91, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_shadow.scss */
+  .shadow-asphalt {
+    height: 543px;
+  }
+}
+
+/* line 125, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_shadow.scss */
+.shadow-sea {
+  box-shadow: #15957b 1px 1px, #15957b 2px 2px, #15957b 3px 3px, #15957b 4px 4px, #15957b 5px 5px, #15957b 6px 6px, #15957b 7px 7px, #15957b 8px 8px, #15957b 9px 9px, #15967c 10px 10px, #15987e 11px 11px, #159a7f 12px 12px, #159c81 13px 13px, #169e82 14px 14px, #16a084 15px 15px, #16a286 16px 16px, #16a387 17px 17px, #17a589 18px 18px, #17a78a 19px 19px, #17a98c 20px 20px, #17ab8d 21px 21px, #18ad8f 22px 22px, #18af91 23px 23px, #18b092 24px 24px, #18b294 25px 25px, #19b495 26px 26px, #19b697 27px 27px, #19b898 28px 28px, #19ba9a 29px 29px, #1abc9c 30px 30px;
+  width: 100%;
+  max-width: 794px;
+  height: 175px;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+@media (min-width: 500px) {
+  /* line 125, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_shadow.scss */
+  .shadow-sea {
+    height: 318px;
+  }
+}
+@media (min-width: 830px) {
+  /* line 125, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/_shadow.scss */
+  .shadow-sea {
+    height: 543px;
+  }
+}
+
+/* line 1, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_header.sass */
+.submit {
+  padding: 10px;
+  border: white solid 3px;
+  color: white;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  z-index: 4;
+}
+@media (min-width: 830px) {
+  /* line 1, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_header.sass */
+  .submit {
+    position: fixed;
+    border: solid 3px rgba(0, 0, 0, 0.2);
+    color: rgba(0, 0, 0, 0.2);
+  }
+}
+/* line 19, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_header.sass */
+.submit:hover {
+  z-index: 4;
+  color: white !important;
+  border: solid 3px white;
+}
+
+/* line 24, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_header.sass */
+h1 {
+  font-family: "bello-pro", sans-serif;
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  margin: 0;
+  line-height: 1;
+  margin-top: 100px;
+}
+@media (min-width: 830px) {
+  /* line 24, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_header.sass */
+  h1 {
+    margin-top: 40px;
+  }
+}
+/* line 38, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_header.sass */
+h1.line-2 {
+  font-family: "brandon-grotesque", sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  margin-top: 0;
+  letter-spacing: 0.15em;
+  line-height: 1.2;
+}
+
+/* line 47, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_header.sass */
+.tash-looper {
+  min-height: 65px;
+}
+
+/* line 50, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_header.sass */
+.tash {
+  display: none;
+}
+/* line 53, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_header.sass */
+.tash.active {
+  margin: 0 auto;
+  margin-top: 5px;
+  width: 100px;
+  min-height: 65px;
+  display: block;
+}
+
+/* line 1, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_footer.sass */
+footer {
+  padding: 20px 40px;
+  color: rgba(255, 255, 255, 0.45);
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: 1.6;
+  background: rgba(0, 0, 0, 0.1);
+}
+@media (min-width: 500px) {
+  /* line 1, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_footer.sass */
+  footer {
+    padding: 40px;
+    font-size: 2rem;
+  }
+}
+/* line 14, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_footer.sass */
+footer .smashing {
+  font-family: "bello-pro", sans-serif;
+  letter-spacing: 0.08em;
+}
+/* line 18, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_footer.sass */
+footer a {
+  color: #be4856 !important;
+  padding-bottom: 2px;
+}
+/* line 22, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_footer.sass */
+footer a:hover {
+  color: #be4856 !important;
+  border-bottom: solid 3px #be4856;
+}
+
+/* line 1, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_social-btns.scss */
+#social {
+  display: block;
+  margin: 0 auto;
+  height: 30px;
+  width: 120px;
+  position: absolute;
+  top: 27px;
+  left: 10px;
+}
+@media (min-width: 830px) {
+  /* line 1, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_social-btns.scss */
+  #social {
+    top: 20px;
+    position: fixed;
+  }
+}
+
+/* line 15, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_social-btns.scss */
+.sharrre {
+  float: left;
+  margin-left: 10px;
+}
+
+/* line 19, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_social-btns.scss */
+.sharrre .box a:hover {
+  text-decoration: none;
+}
+
+/* line 22, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_social-btns.scss */
+.sharrre .count {
+  float: left;
+  color: #fff;
+  display: none;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 26px;
+  height: 26px;
+  position: relative;
+  text-align: center;
+  min-width: 20px;
+  padding: 0 5px;
+}
+
+/* line 35, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_social-btns.scss */
+.sharrre .count:before,
+.sharrre .count:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 49%;
+  width: 0;
+  height: 0;
+}
+
+/* line 44, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_social-btns.scss */
+.sharrre .share {
+  float: left;
+  color: #FFFFFF;
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  height: 26px;
+  line-height: 26px;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  width: 26px;
+}
+
+/* line 57, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_social-btns.scss */
+.twitter .share {
+  background: rgba(0, 0, 0, 0.15) url(../img/social-twitter.png) no-repeat left center;
+  background-size: 16px;
+  background-position: center;
+}
+/* line 62, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_social-btns.scss */
+.twitter .share:hover {
+  background: #26c3eb url(../img/social-twitter.png) no-repeat left center;
+  background-size: 16px;
+  background-position: center;
+}
+
+/* line 68, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_social-btns.scss */
+#facebook .share {
+  background: rgba(0, 0, 0, 0.15) url(../img/social-fb.png) no-repeat left center;
+  background-size: 16px;
+  background-position: center;
+}
+/* line 73, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_social-btns.scss */
+#facebook .share:hover {
+  background: #5582c9 url(../img/social-fb.png) no-repeat left center;
+  background-size: 16px;
+  background-position: center;
+}
+
+/* line 79, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_social-btns.scss */
+#twitter .count {
+  background: #26c3eb;
+}
+
+/* line 82, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_social-btns.scss */
+#facebook .count {
+  background: #5582c9;
+}
+
+/* line 1, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_submit.sass */
+section#submit {
+  float: left;
+  height: 400px;
+  background: red;
+  width: 100%;
+}
+
+/* line 9, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_submit.sass */
+.md-content h3 {
+  font-family: "brandon-grotesque", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+/* line 15, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_submit.sass */
+.md-content > div {
+  font-family: "franklin-gothic-urw", "proxima-nova", gothic, sans-serif;
+}
+/* line 18, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_submit.sass */
+.md-content > div p {
+  font-size: 18px;
+  line-height: 1.3;
+}
+/* line 22, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_submit.sass */
+.md-content .actions {
+  margin-top: 20px;
+  text-align: center;
+  display: block;
+}
+/* line 27, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_submit.sass */
+.md-content .actions button {
+  display: inline-block;
+  background: transparent;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+/* line 34, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_submit.sass */
+.md-content .actions button:focus, .md-content .actions button:active {
+  outline: 0;
+}
+/* line 38, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_submit.sass */
+.md-content .actions button:hover {
+  background: white;
+  color: #e74c3c;
+}
+/* line 43, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_submit.sass */
+.md-content a {
+  color: #34495e !important;
+}
+/* line 46, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_submit.sass */
+.md-content a:hover {
+  border-bottom: 3px solid #34495e;
+}
+
+/* line 1, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_newsletter.sass */
+#newsletter {
+  float: left;
+  width: 100%;
+  padding: 30px 0 60px;
+  background: rgba(0, 0, 0, 0.25);
+  border: solid 4px rgba(0, 0, 0, 0.45);
+  margin-top: 15px;
+}
+/* line 9, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_newsletter.sass */
+#newsletter h2 {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.1em;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+/* line 17, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_newsletter.sass */
+#newsletter form.mailchimp {
+  text-align: center;
+}
+/* line 20, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_newsletter.sass */
+#newsletter form.mailchimp input {
+  display: inline-block;
+}
+/* line 23, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_newsletter.sass */
+#newsletter form.mailchimp input.email {
+  text-align: left;
+  text-transform: lowercase;
+  color: #111111;
+  width: 70%;
+  margin-bottom: 10px;
+}
+@media (min-width: 500px) {
+  /* line 23, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_newsletter.sass */
+  #newsletter form.mailchimp input.email {
+    width: 50%;
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 830px) {
+  /* line 23, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_newsletter.sass */
+  #newsletter form.mailchimp input.email {
+    width: 35%;
+  }
+}
+/* line 37, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_newsletter.sass */
+#newsletter form.mailchimp input.mailchimp-submit {
+  background: transparent;
+}
+/* line 40, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_newsletter.sass */
+#newsletter form.mailchimp input.mailchimp-submit:hover {
+  background: white;
+  color: #34495e;
+}
+/* line 44, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_newsletter.sass */
+#newsletter form.mailchimp input:hover, #newsletter form.mailchimp input:active, #newsletter form.mailchimp input:focus {
+  outline: 0;
+}
+
+/* line 50, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_newsletter.sass */
+.sign-up-message {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  padding: 10px;
+  font-family: "brandon-grotesque", sans-serif;
+  letter-spacing: 0.08em;
+}
+@media (min-width: 500px) {
+  /* line 50, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_newsletter.sass */
+  .sign-up-message {
+    width: 60%;
+  }
+}
+@media (min-width: 830px) {
+  /* line 50, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_newsletter.sass */
+  .sign-up-message {
+    width: 40%;
+  }
+}
+/* line 66, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_newsletter.sass */
+.sign-up-message.success {
+  border: solid 4px rgba(0, 0, 0, 0.45);
+  background: rgba(23, 220, 104, 0.58);
+}
+/* line 70, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/includes/_newsletter.sass */
+.sign-up-message.fail {
+  margin-top: 20px;
+  border: solid 4px rgba(0, 0, 0, 0.45);
+  background: rgba(176, 56, 56, 0.58);
+}
+
+/* General styles for the modal */
+/*
+Styles for the html/body for special modal where we want 3d effects
+Note that we need a container wrapping all content on the page for the
+perspective effects (not including the modals and the overlay).
+*/
+/* line 8, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-perspective,
+.md-perspective body {
+  height: 100%;
+  overflow: hidden;
+}
+
+/* line 14, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-perspective body {
+  background: #222;
+  -webkit-perspective: 600px;
+  -moz-perspective: 600px;
+  perspective: 600px;
+}
+
+/* line 21, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  max-width: 730px;
+  min-width: 320px;
+  height: auto;
+  z-index: 2000;
+  visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+/* line 40, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-show {
+  visibility: visible;
+}
+
+/* line 44, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  opacity: 0;
+  background: rgba(143, 27, 15, 0.8);
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+/* line 59, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-show ~ .md-overlay {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Content styles */
+/* line 65, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-content {
+  color: #fff;
+  background: #e74c3c;
+  position: relative;
+  border-radius: 3px;
+  margin: 0 auto;
+}
+
+/* line 73, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-content h3 {
+  margin: 0;
+  padding: 0.4em;
+  text-align: center;
+  font-size: 2.4em;
+  font-weight: 300;
+  opacity: 0.8;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 3px 3px 0 0;
+}
+
+/* line 84, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-content > div {
+  padding: 15px 40px 30px;
+  margin: 0;
+  font-weight: 300;
+  font-size: 1.45em;
+}
+
+/* line 91, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-content > div p {
+  margin: 0;
+  padding: 10px 0;
+}
+
+/* line 96, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-content > div ul {
+  margin: 0;
+  padding: 0 0 30px 20px;
+}
+
+/* line 101, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-content > div ul li {
+  padding: 5px 0;
+}
+
+/* line 105, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-content button {
+  display: block;
+  margin: 0 auto;
+  font-size: 0.8em;
+}
+
+/* Individual modal styles with animations/transitions */
+/* Effect 1: Fade in and scale up */
+/* line 114, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-effect-1 .md-content {
+  -webkit-transform: scale(0.7);
+  -moz-transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  transform: scale(0.7);
+  opacity: 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+/* line 125, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-show.md-effect-1 .md-content {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+}
+
+/* Effect 2: Slide from the right */
+/* line 134, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-effect-2 .md-content {
+  -webkit-transform: translateX(20%);
+  -moz-transform: translateX(20%);
+  -ms-transform: translateX(20%);
+  transform: translateX(20%);
+  opacity: 0;
+  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  -moz-transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+}
+
+/* line 145, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-show.md-effect-2 .md-content {
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+  opacity: 1;
+}
+
+/* Effect 3: Slide from the bottom */
+/* line 154, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-effect-3 .md-content {
+  -webkit-transform: translateY(20%);
+  -moz-transform: translateY(20%);
+  -ms-transform: translateY(20%);
+  transform: translateY(20%);
+  opacity: 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+/* line 165, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-show.md-effect-3 .md-content {
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Effect 4: Newspaper */
+/* line 174, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-effect-4 .md-content {
+  -webkit-transform: scale(0) rotate(720deg);
+  -moz-transform: scale(0) rotate(720deg);
+  -ms-transform: scale(0) rotate(720deg);
+  transform: scale(0) rotate(720deg);
+  opacity: 0;
+}
+
+/* line 182, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-show.md-effect-4 ~ .md-overlay,
+.md-effect-4 .md-content {
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+/* line 189, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-show.md-effect-4 .md-content {
+  -webkit-transform: scale(1) rotate(0deg);
+  -moz-transform: scale(1) rotate(0deg);
+  -ms-transform: scale(1) rotate(0deg);
+  transform: scale(1) rotate(0deg);
+  opacity: 1;
+}
+
+/* Effect 5: fall */
+/* line 198, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-effect-5.md-modal {
+  -webkit-perspective: 1300px;
+  -moz-perspective: 1300px;
+  perspective: 1300px;
+}
+
+/* line 204, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-effect-5 .md-content {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform: translateZ(600px) rotateX(20deg);
+  -moz-transform: translateZ(600px) rotateX(20deg);
+  -ms-transform: translateZ(600px) rotateX(20deg);
+  transform: translateZ(600px) rotateX(20deg);
+  opacity: 0;
+}
+
+/* line 215, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-show.md-effect-5 .md-content {
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  -webkit-transform: translateZ(0px) rotateX(0deg);
+  -moz-transform: translateZ(0px) rotateX(0deg);
+  -ms-transform: translateZ(0px) rotateX(0deg);
+  transform: translateZ(0px) rotateX(0deg);
+  opacity: 1;
+}
+
+/* Effect 6: side fall */
+/* line 227, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-effect-6.md-modal {
+  -webkit-perspective: 1300px;
+  -moz-perspective: 1300px;
+  perspective: 1300px;
+}
+
+/* line 233, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-effect-6 .md-content {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform: translate(30%) translateZ(600px) rotate(10deg);
+  -moz-transform: translate(30%) translateZ(600px) rotate(10deg);
+  -ms-transform: translate(30%) translateZ(600px) rotate(10deg);
+  transform: translate(30%) translateZ(600px) rotate(10deg);
+  opacity: 0;
+}
+
+/* line 244, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-show.md-effect-6 .md-content {
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  -webkit-transform: translate(0%) translateZ(0) rotate(0deg);
+  -moz-transform: translate(0%) translateZ(0) rotate(0deg);
+  -ms-transform: translate(0%) translateZ(0) rotate(0deg);
+  transform: translate(0%) translateZ(0) rotate(0deg);
+  opacity: 1;
+}
+
+/* Effect 7:  slide and stick to top */
+/* line 256, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-effect-7 {
+  top: 0;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+/* line 264, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-effect-7 .md-content {
+  -webkit-transform: translateY(-200%);
+  -moz-transform: translateY(-200%);
+  -ms-transform: translateY(-200%);
+  transform: translateY(-200%);
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
+  opacity: 0;
+}
+
+/* line 275, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-show.md-effect-7 .md-content {
+  -webkit-transform: translateY(0%);
+  -moz-transform: translateY(0%);
+  -ms-transform: translateY(0%);
+  transform: translateY(0%);
+  border-radius: 0 0 3px 3px;
+  opacity: 1;
+}
+
+/* Effect 8: 3D flip horizontal */
+/* line 285, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-effect-8.md-modal {
+  -webkit-perspective: 1300px;
+  -moz-perspective: 1300px;
+  perspective: 1300px;
+}
+
+/* line 291, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-effect-8 .md-content {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform: rotateY(-70deg);
+  -moz-transform: rotateY(-70deg);
+  -ms-transform: rotateY(-70deg);
+  transform: rotateY(-70deg);
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  opacity: 0;
+}
+
+/* line 305, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-show.md-effect-8 .md-content {
+  -webkit-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+  opacity: 1;
+}
+
+/* Effect 9: 3D flip vertical */
+/* line 314, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-effect-9.md-modal {
+  -webkit-perspective: 1300px;
+  -moz-perspective: 1300px;
+  perspective: 1300px;
+}
+
+/* line 320, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-effect-9 .md-content {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform: rotateX(-70deg);
+  -moz-transform: rotateX(-70deg);
+  -ms-transform: rotateX(-70deg);
+  transform: rotateX(-70deg);
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  opacity: 0;
+}
+
+/* line 334, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-show.md-effect-9 .md-content {
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  -ms-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+  opacity: 1;
+}
+
+/* Effect 10: 3D sign */
+/* line 343, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-effect-10.md-modal {
+  -webkit-perspective: 1300px;
+  -moz-perspective: 1300px;
+  perspective: 1300px;
+}
+
+/* line 349, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-effect-10 .md-content {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform: rotateX(-60deg);
+  -moz-transform: rotateX(-60deg);
+  -ms-transform: rotateX(-60deg);
+  transform: rotateX(-60deg);
+  -webkit-transform-origin: 50% 0;
+  -moz-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  opacity: 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+/* line 366, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-show.md-effect-10 .md-content {
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  -ms-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+  opacity: 1;
+}
+
+/* Effect 11: Super scaled */
+/* line 375, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-effect-11 .md-content {
+  -webkit-transform: scale(2);
+  -moz-transform: scale(2);
+  -ms-transform: scale(2);
+  transform: scale(2);
+  opacity: 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+/* line 386, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-show.md-effect-11 .md-content {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+}
+
+/* Effect 12:  Just me */
+/* line 395, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-effect-12 .md-content {
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  opacity: 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+/* line 406, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-show.md-effect-12 ~ .md-overlay {
+  background: #e74c3c;
+}
+
+/* line 410, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-effect-12 .md-content h3,
+.md-effect-12 .md-content {
+  background: transparent;
+}
+
+/* line 415, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-show.md-effect-12 .md-content {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+}
+
+/* Effect 13: 3D slit */
+/* line 424, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-effect-13.md-modal {
+  -webkit-perspective: 1300px;
+  -moz-perspective: 1300px;
+  perspective: 1300px;
+}
+
+/* line 430, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-effect-13 .md-content {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform: translateZ(-3000px) rotateY(90deg);
+  -moz-transform: translateZ(-3000px) rotateY(90deg);
+  -ms-transform: translateZ(-3000px) rotateY(90deg);
+  transform: translateZ(-3000px) rotateY(90deg);
+  opacity: 0;
+}
+
+/* line 441, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-show.md-effect-13 .md-content {
+  -webkit-animation: slit .7s forwards ease-out;
+  -moz-animation: slit .7s forwards ease-out;
+  animation: slit .7s forwards ease-out;
+}
+
+@-webkit-keyframes slit {
+  /* line 448, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+  50% {
+    -webkit-transform: translateZ(-250px) rotateY(89deg);
+    opacity: .5;
+    -webkit-animation-timing-function: ease-out;
+  }
+
+  /* line 449, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+  100% {
+    -webkit-transform: translateZ(0) rotateY(0deg);
+    opacity: 1;
+  }
+}
+@-moz-keyframes slit {
+  /* line 453, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+  50% {
+    -moz-transform: translateZ(-250px) rotateY(89deg);
+    opacity: .5;
+    -moz-animation-timing-function: ease-out;
+  }
+
+  /* line 454, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+  100% {
+    -moz-transform: translateZ(0) rotateY(0deg);
+    opacity: 1;
+  }
+}
+@keyframes slit {
+  /* line 458, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+  50% {
+    transform: translateZ(-250px) rotateY(89deg);
+    opacity: 1;
+    animation-timing-function: ease-in;
+  }
+
+  /* line 459, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+  100% {
+    transform: translateZ(0) rotateY(0deg);
+    opacity: 1;
+  }
+}
+/* Effect 14:  3D Rotate from bottom */
+/* line 463, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-effect-14.md-modal {
+  -webkit-perspective: 1300px;
+  -moz-perspective: 1300px;
+  perspective: 1300px;
+}
+
+/* line 469, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-effect-14 .md-content {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform: translateY(100%) rotateX(90deg);
+  -moz-transform: translateY(100%) rotateX(90deg);
+  -ms-transform: translateY(100%) rotateX(90deg);
+  transform: translateY(100%) rotateX(90deg);
+  -webkit-transform-origin: 0 100%;
+  -moz-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+/* line 486, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-show.md-effect-14 .md-content {
+  -webkit-transform: translateY(0%) rotateX(0deg);
+  -moz-transform: translateY(0%) rotateX(0deg);
+  -ms-transform: translateY(0%) rotateX(0deg);
+  transform: translateY(0%) rotateX(0deg);
+  opacity: 1;
+}
+
+/* Effect 15:  3D Rotate in from left */
+/* line 495, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-effect-15.md-modal {
+  -webkit-perspective: 1300px;
+  -moz-perspective: 1300px;
+  perspective: 1300px;
+}
+
+/* line 501, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-effect-15 .md-content {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform: translateZ(100px) translateX(-30%) rotateY(90deg);
+  -moz-transform: translateZ(100px) translateX(-30%) rotateY(90deg);
+  -ms-transform: translateZ(100px) translateX(-30%) rotateY(90deg);
+  transform: translateZ(100px) translateX(-30%) rotateY(90deg);
+  -webkit-transform-origin: 0 100%;
+  -moz-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+  opacity: 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+/* line 518, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-show.md-effect-15 .md-content {
+  -webkit-transform: translateZ(0px) translateX(0%) rotateY(0deg);
+  -moz-transform: translateZ(0px) translateX(0%) rotateY(0deg);
+  -ms-transform: translateZ(0px) translateX(0%) rotateY(0deg);
+  transform: translateZ(0px) translateX(0%) rotateY(0deg);
+  opacity: 1;
+}
+
+/* Effect 16:  Blur */
+/* line 527, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-show.md-effect-16 ~ .md-overlay {
+  background: rgba(180, 46, 32, 0.5);
+}
+
+/* line 531, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-show.md-effect-16 ~ .container {
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  filter: blur(3px);
+}
+
+/* line 537, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-effect-16 .md-content {
+  -webkit-transform: translateY(-5%);
+  -moz-transform: translateY(-5%);
+  -ms-transform: translateY(-5%);
+  transform: translateY(-5%);
+  opacity: 0;
+}
+
+/* line 545, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-show.md-effect-16 ~ .container,
+.md-effect-16 .md-content {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+/* line 552, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-show.md-effect-16 .md-content {
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Effect 17:  Slide in from bottom with perspective on container */
+/* line 561, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-show.md-effect-17 ~ .container {
+  height: 100%;
+  overflow: hidden;
+  -webkit-transition: -webkit-transform 0.3s;
+  -moz-transition: -moz-transform 0.3s;
+  transition: transform 0.3s;
+}
+
+/* line 569, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-show.md-effect-17 ~ .container,
+.md-show.md-effect-17 ~ .md-overlay {
+  -webkit-transform: rotateX(-2deg);
+  -moz-transform: rotateX(-2deg);
+  -ms-transform: rotateX(-2deg);
+  transform: rotateX(-2deg);
+  -webkit-transform-origin: 50% 0%;
+  -moz-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+/* line 583, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-effect-17 .md-content {
+  opacity: 0;
+  -webkit-transform: translateY(200%);
+  -moz-transform: translateY(200%);
+  -ms-transform: translateY(200%);
+  transform: translateY(200%);
+}
+
+/* line 591, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-show.md-effect-17 .md-content {
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 1;
+  -webkit-transition: all 0.3s 0.2s;
+  -moz-transition: all 0.3s 0.2s;
+  transition: all 0.3s 0.2s;
+}
+
+/* Effect 18:  Slide from right with perspective on container */
+/* line 603, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-show.md-effect-18 ~ .container {
+  height: 100%;
+  overflow: hidden;
+}
+
+/* line 608, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-show.md-effect-18 ~ .md-overlay {
+  background: rgba(143, 27, 15, 0.8);
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+/* line 615, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-show.md-effect-18 ~ .container,
+.md-show.md-effect-18 ~ .md-overlay {
+  -webkit-transform-style: preserve-3d;
+  -webkit-transform-origin: 0% 50%;
+  -webkit-animation: rotateRightSideFirst 0.5s forwards ease-in;
+  -moz-transform-style: preserve-3d;
+  -moz-transform-origin: 0% 50%;
+  -moz-animation: rotateRightSideFirst 0.5s forwards ease-in;
+  transform-style: preserve-3d;
+  transform-origin: 0% 50%;
+  animation: rotateRightSideFirst 0.5s forwards ease-in;
+}
+
+@-webkit-keyframes rotateRightSideFirst {
+  /* line 629, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+  50% {
+    -webkit-transform: translateZ(-50px) rotateY(5deg);
+    -webkit-animation-timing-function: ease-out;
+  }
+
+  /* line 630, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+  100% {
+    -webkit-transform: translateZ(-200px);
+  }
+}
+@-moz-keyframes rotateRightSideFirst {
+  /* line 634, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+  50% {
+    -moz-transform: translateZ(-50px) rotateY(5deg);
+    -moz-animation-timing-function: ease-out;
+  }
+
+  /* line 635, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+  100% {
+    -moz-transform: translateZ(-200px);
+  }
+}
+@keyframes rotateRightSideFirst {
+  /* line 639, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+  50% {
+    transform: translateZ(-50px) rotateY(5deg);
+    animation-timing-function: ease-out;
+  }
+
+  /* line 640, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+  100% {
+    transform: translateZ(-200px);
+  }
+}
+/* line 643, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-effect-18 .md-content {
+  -webkit-transform: translateX(200%);
+  -moz-transform: translateX(200%);
+  -ms-transform: translateX(200%);
+  transform: translateX(200%);
+  opacity: 0;
+}
+
+/* line 651, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-show.md-effect-18 .md-content {
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+  opacity: 1;
+  -webkit-transition: all 0.5s 0.1s;
+  -moz-transition: all 0.5s 0.1s;
+  transition: all 0.5s 0.1s;
+}
+
+/* Effect 19:  Slip in from the top with perspective on container */
+/* line 663, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-show.md-effect-19 ~ .container {
+  height: 100%;
+  overflow: hidden;
+}
+
+/* line 668, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-show.md-effect-19 ~ .md-overlay {
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+/* line 674, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-show.md-effect-19 ~ .container,
+.md-show.md-effect-19 ~ .md-overlay {
+  -webkit-transform-style: preserve-3d;
+  -webkit-transform-origin: 50% 100%;
+  -webkit-animation: OpenTop 0.5s forwards ease-in;
+  -moz-transform-style: preserve-3d;
+  -moz-transform-origin: 50% 100%;
+  -moz-animation: OpenTop 0.5s forwards ease-in;
+  transform-style: preserve-3d;
+  transform-origin: 50% 100%;
+  animation: OpenTop 0.5s forwards ease-in;
+}
+
+@-webkit-keyframes OpenTop {
+  /* line 688, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+  50% {
+    -webkit-transform: rotateX(10deg);
+    -webkit-animation-timing-function: ease-out;
+  }
+}
+@-moz-keyframes OpenTop {
+  /* line 695, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+  50% {
+    -moz-transform: rotateX(10deg);
+    -moz-animation-timing-function: ease-out;
+  }
+}
+@keyframes OpenTop {
+  /* line 702, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+  50% {
+    transform: rotateX(10deg);
+    animation-timing-function: ease-out;
+  }
+}
+/* line 708, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-effect-19 .md-content {
+  -webkit-transform: translateY(-200%);
+  -moz-transform: translateY(-200%);
+  -ms-transform: translateY(-200%);
+  transform: translateY(-200%);
+  opacity: 0;
+}
+
+/* line 716, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+.md-show.md-effect-19 .md-content {
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 1;
+  -webkit-transition: all 0.5s 0.1s;
+  -moz-transition: all 0.5s 0.1s;
+  transition: all 0.5s 0.1s;
+}
+
+@media screen and (max-width: 32em) {
+  /* line 728, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/vendor/_modal.scss */
+  body {
+    font-size: 75%;
+  }
+}
+/* line 24, main.sass */
+html {
+  font-size: 62.5%;
+}
+
+/* line 27, main.sass */
+body {
+  background: #ef6e7e;
+  font-family: "franklin-gothic-urw", "proxima-nova", gothic, sans-serif;
+}
+
+/* line 31, main.sass */
+a {
+  color: #be4856;
+  text-decoration: none;
+  font-weight: 500;
+}
+/* line 36, main.sass */
+a:hover, a:focus {
+  color: white;
+}
+/* line 40, main.sass */
+a.salmon:hover {
+  color: #ef6e7e;
+}
+/* line 42, main.sass */
+a.sky:hover {
+  color: #72d0f4;
+}
+/* line 44, main.sass */
+a.sea:hover {
+  color: #1abc9c;
+}
+/* line 46, main.sass */
+a.asphalt:hover {
+  color: #34495e;
+}
+
+/* line 49, main.sass */
+img {
+  max-width: 100%;
+}
+
+/* line 52, main.sass */
+main {
+  padding: 0 15px;
+  padding-bottom: 100px;
+  display: block;
+  width: 290px;
+  *zoom: 1;
+  max-width: 830px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 17, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/bourbon/addons/_clearfix.scss */
+main:before, main:after {
+  content: " ";
+  display: table;
+}
+/* line 23, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/bourbon/addons/_clearfix.scss */
+main:after {
+  clear: both;
+}
+@media (min-width: 500px) {
+  /* line 52, main.sass */
+  main {
+    width: 500px;
+  }
+}
+@media (min-width: 830px) {
+  /* line 52, main.sass */
+  main {
+    width: 830px;
+  }
+}
+/* line 65, main.sass */
+main section.landing-page {
+  padding: 25px 0;
+  float: left;
+  display: block;
+  margin-right: 2.5641%;
+  width: 100%;
+}
+/* line 38, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/neat/grid/_span-columns.scss */
+main section.landing-page:last-child {
+  margin-right: 0;
+}
+@media (min-width: 830px) {
+  /* line 65, main.sass */
+  main section.landing-page {
+    padding: 25px 0 50px 0;
+  }
+}
+
+/* line 72, main.sass */
+.browser {
+  position: relative;
+  margin-bottom: 35px;
+}
+@media (min-width: 500px) {
+  /* line 72, main.sass */
+  .browser {
+    margin-bottom: 40px;
+  }
+}
+@media (min-width: 830px) {
+  /* line 72, main.sass */
+  .browser {
+    margin-bottom: 70px;
+    min-height: 552px;
+  }
+}
+/* line 83, main.sass */
+.browser .content {
+  position: relative;
+  padding-top: 23px;
+  width: 100%;
+  z-index: 2;
+  background: url(../img/browser-header.png) no-repeat 50% 0;
+  background-size: 100%;
+}
+@media (min-width: 500px) {
+  /* line 83, main.sass */
+  .browser .content {
+    padding-top: 41px;
+  }
+}
+@media (min-width: 830px) {
+  /* line 83, main.sass */
+  .browser .content {
+    padding-top: 71px;
+  }
+}
+/* line 97, main.sass */
+.browser .content img {
+  border-radius: 0 0 5px 5px;
+}
+@media (min-width: 830px) {
+  /* line 97, main.sass */
+  .browser .content img {
+    border-radius: 0 0 10px 10px;
+  }
+}
+
+/* line 103, main.sass */
+.preview {
+  float: left;
+  display: block;
+  margin-right: 2.5641%;
+  width: 48.71795%;
+  position: relative;
+  z-index: 3;
+}
+/* line 38, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/neat/grid/_span-columns.scss */
+.preview:last-child {
+  margin-right: 0;
+}
+
+/* line 108, main.sass */
+.buy {
+  float: left;
+  display: block;
+  margin-right: 2.5641%;
+  width: 48.71795%;
+  position: relative;
+  z-index: 3;
+}
+/* line 38, ../../../../../../Users/sam/Documents/Projects/Wrap Bootsrap/pastel/sass/neat/grid/_span-columns.scss */
+.buy:last-child {
+  margin-right: 0;
+}
+
+/* line 113, main.sass */
+.btn-smashing {
+  border: solid 4px white;
+  padding: 10px 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+/* line 123, main.sass */
+.btn-smashing:hover {
+  color: #ef6e7e;
+  background: white;
+}
+
+/* line 127, main.sass */
+.btn-view {
+  float: right;
+}
+
+/* line 130, main.sass */
+.btn-buy {
+  float: left;
+}
