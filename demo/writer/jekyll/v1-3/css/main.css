@@ -8122,38 +8122,41 @@ form {
   font-size: 18px;
   font-size: 1.8rem; }
 
-.no-js-menu ul {
-  padding: 10px 0;
-  margin-bottom: 0; }
-.no-js-menu li {
-  margin: 0;
-  padding: 3px 0;
-  list-style: none; }
-  @media (min-width: 768px) {
-    .no-js-menu li {
-      padding: 5px 0; } }
-  @media (min-width: 992px) {
-    .no-js-menu li {
-      padding: 10px 0; } }
-  .no-js-menu li i {
-    padding: 0 20px;
-    color: #DADADA;
-    font-style: normal;
-    font-size: 14px;
-    font-size: 1.4rem; }
-  .no-js-menu li a {
-    color: #DADADA;
-    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
-    font-weight: 700;
-    border-bottom: 0 transparent;
-    font-size: 12px;
-    font-size: 1.2rem; }
-    .no-js-menu li a:hover {
-      border-bottom: none;
-      color: #fff; }
-
-.hero-image .no-js-menu {
-  padding-left: 50px; }
+.no-js-menu {
+  background-color: #333337;
+  position: fixed;
+  width: 100%;
+  z-index: 100; }
+  .no-js-menu ul {
+    padding: 0;
+    margin-bottom: 0; }
+  .no-js-menu li {
+    margin: 0;
+    padding: 3px 0;
+    list-style: none;
+    float: left; }
+    @media (min-width: 768px) {
+      .no-js-menu li {
+        padding: 5px 0; } }
+    @media (min-width: 992px) {
+      .no-js-menu li {
+        padding: 10px 0; } }
+    .no-js-menu li i {
+      padding: 0 7px 0 30px;
+      color: #DADADA;
+      font-style: normal;
+      font-size: 14px;
+      font-size: 1.4rem; }
+    .no-js-menu li a {
+      color: #DADADA;
+      font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+      font-weight: 700;
+      border-bottom: 0 transparent;
+      font-size: 12px;
+      font-size: 1.2rem; }
+      .no-js-menu li a:hover {
+        border-bottom: none;
+        color: #fff; }
 
 .no-js .sidebar {
   height: 400px; }
@@ -8169,6 +8172,8 @@ form {
   @media (min-width: 1200px) {
     .no-js .sidebar {
       width: 464px; } }
+  .no-js .sidebar .menu-trigger {
+    display: none; }
 .no-js .site-info {
   padding: 0 15px 0 15px; }
   @media (min-width: 768px) {
@@ -8182,6 +8187,8 @@ form {
   @media (min-width: 1200px) {
     .no-js .site-info {
       padding: 0 30px; } }
+.no-js header .menu-trigger {
+  display: none; }
 
 .no-js-dashboard {
   margin-top: 60px; }
