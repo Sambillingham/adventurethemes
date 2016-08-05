@@ -97,7 +97,11 @@ a {
     margin-bottom: 50px;
 }
 .theme-preview {
-    @include span-columns(6);
+
+  @include span-columns(12);
+    @media(min-width: 900px) {
+      @include span-columns(6);
+    }
     background: #EEEEEE;
     padding: 30px;
     margin-bottom: 30px;
@@ -157,11 +161,16 @@ a {
         margin-bottom: 40px;
     }
     img {
+      @media(min-width: 900px) {
+
         @include span-columns(4 of 8);
         transform: translate(15px, -13px) scale(1.1);
+      }
     }
     .featured-info {
+      @media(min-width: 900px) {
         @include span-columns(4 of 8);
+      }
     }
 }
 
