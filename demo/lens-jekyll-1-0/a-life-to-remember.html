@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Lens Theme - A Life To Remember</title>
+  <meta name="description" content="The Grunt ecosystem is huge and it’s growing every day. With literally hundreds of plugins to choose from, you can use Grunt to automate just about anything ...">
+
+  <link rel="stylesheet" href="/demo/lens-jekyll-1-0//css/bootstrap.min.css">
+  <link rel="stylesheet" href="/demo/lens-jekyll-1-0//css/main.css">
+
+  <link rel="canonical" href="http://adventurethemes.com/demo/lens-jekyll-1-0//a-life-to-remember">
+  <link rel="alternate" type="application/rss+xml" title="Lens Theme" href="http://adventurethemes.com/demo/lens-jekyll-1-0//feed.xml">
+
+  <!--[if lt IE 9]>
+    <script src="/demo/lens-jekyll-1-0//js/vendor/html5shiv.min.js"></script>
+  <![endif]-->
+</head>
+
+
+  <body class="">
+    <div id="menu">
+    <ul>
+        
+            <li><a href="/demo/lens-jekyll-1-0//">Home</a></li>
+        
+            <li><a href="/demo/lens-jekyll-1-0//about">About</a></li>
+        
+            <li><a href="/demo/lens-jekyll-1-0//author/michelle">Michelle</a></li>
+        
+            <li><a href="/demo/lens-jekyll-1-0//author/sarah">Sarah</a></li>
+        
+            <li><a href="/demo/lens-jekyll-1-0//author/tom">Tom</a></li>
+        
+            <li><a href="/demo/lens-jekyll-1-0//category/travel">Travel</a></li>
+        
+            <li><a href="/demo/lens-jekyll-1-0//category/inpiration">Inpiration</a></li>
+        
+            <li><a href="/demo/lens-jekyll-1-0//contact/">Contact</a></li>
+        
+    </ul>
+</div>
+
+<span class="menu-trigger side-menu-icon animated fadeInDown">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+</span>
+
+<!-- if the user has javascript disabled they can still use the menu -->
+<noscript>
+    <div class="no-js-menu">
+        <ul>
+          
+              <li><a href="/demo/lens-jekyll-1-0//">Home</a></li>
+          
+              <li><a href="/demo/lens-jekyll-1-0//about">About</a></li>
+          
+              <li><a href="/demo/lens-jekyll-1-0//author/michelle">Michelle</a></li>
+          
+              <li><a href="/demo/lens-jekyll-1-0//author/sarah">Sarah</a></li>
+          
+              <li><a href="/demo/lens-jekyll-1-0//author/tom">Tom</a></li>
+          
+              <li><a href="/demo/lens-jekyll-1-0//category/travel">Travel</a></li>
+          
+              <li><a href="/demo/lens-jekyll-1-0//category/inpiration">Inpiration</a></li>
+          
+              <li><a href="/demo/lens-jekyll-1-0//contact/">Contact</a></li>
+          
+        </ul>
+    </div>
+</noscript>
+<!-- end no script -->
+
+
+    
+
+  <header class="hero-header"
+      style="background-image: url(/demo/lens-jekyll-1-0//img/feature-wolf.jpg)"
+  >
+
+        <div class="overlay hero-header__inner">
+            <h1 class="animated fadeIn delay-1">A Life To Remember</h1>
+        </div>
+
+        <div class="hero-header__meta">
+            <p class="hero-header__tags animated fadeInDown">
+              
+                  <a href="/category/storytime">Storytime</a>
+                  
+              
+              </p>
+            <p class="hero-header__author animated fadeInUp">
+            <a href="">Michelle Jones</a>
+            </p>
+        </div>
+  </header>
+
+  <main class="container">
+      <div class="row">
+          <div class="col-xs-12 col-md-10 col-md-offset-1 main-content animated fadeIn">
+
+              <p>The Grunt ecosystem is huge and it’s growing every day. With literally hundreds of plugins to choose from, you can use Grunt to automate just about anything with a minimum of effort. If someone hasn’t already built what you need, authoring and publishing your own Grunt plugin to npm is a breeze. See how to <a href="http://gruntjs.com/">get started</a>.</p>
+
+<p>In one word: automation. The less work you have to do when performing repetitive tasks like minification, compilation, unit testing, linting, etc, the easier your job becomes. After you’ve configured it through a Gruntfile, a task runner can do most of that mundane work for you—and your team—with basically zero effort.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="p">{</span>
+  <span class="s2">"name"</span><span class="err">:</span> <span class="s2">"my-project-name"</span><span class="p">,</span>
+  <span class="s2">"version"</span><span class="err">:</span> <span class="s2">"0.1.0"</span><span class="p">,</span>
+  <span class="s2">"devDependencies"</span><span class="err">:</span> <span class="p">{</span>
+    <span class="s2">"grunt"</span><span class="err">:</span> <span class="s2">"~0.4.5"</span><span class="p">,</span>
+    <span class="s2">"grunt-contrib-jshint"</span><span class="err">:</span> <span class="s2">"~0.10.0"</span><span class="p">,</span>
+    <span class="s2">"grunt-contrib-nodeunit"</span><span class="err">:</span> <span class="s2">"~0.4.1"</span><span class="p">,</span>
+    <span class="s2">"grunt-contrib-uglify"</span><span class="err">:</span> <span class="s2">"~0.5.0"</span>
+  <span class="p">}</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>The easiest way to add Grunt and gruntplugins to an existing <code class="highlighter-rouge">package.json</code> is with the command <code class="highlighter-rouge">npm install &lt;module&gt; --save-dev</code>. Not only will this install <code class="highlighter-rouge">&lt;module&gt;</code> locally, but it will automatically be added to the devDependencies section, using a tilde version range.</p>
+
+<p>For example, this will install the latest version of Grunt in your project folder, adding it to your devDependencies:</p>
+
+<p>Grunt</p>
+
+              <div class="social-links">
+    <a class="social-icon js-share-popup" href="#" data-platform="twitter" data-message="" data-url="/demo/lens-jekyll-1-0//a-life-to-remember"><i class="fa fa-twitter"></i></a>
+    <a class="social-icon js-share-popup" href="#" data-platform="facebook" data-message="" data-url="/demo/lens-jekyll-1-0//a-life-to-remember"><i class="fa fa-facebook-official"></i></a>
+    <a class="social-icon js-share-popup" data-platform="mail"  href="mailto:youremail@mail.com?body=/demo/lens-jekyll-1-0//a-life-to-remember"><i class="fa fa-envelope"></i></a>
+</div>
+
+
+
+          </div><!-- main-content/col -->
+      </div> <!--/row -->
+  </main> <!-- /container -->
+
+  
+<div class="post__footer" style="background-image: url(/demo/lens-jekyll-1-0//img/feature-plantpot.jpg)">
+    <div class="overlay">
+        <div class="author-details">
+
+            <a href="/author/michelle"><img src='/demo/lens-jekyll-1-0//img/michelle.jpg' class="author-details__image"></a>
+
+            <div class="author-details__info">
+                <p class="author-details__date">Posted on <time datetime="2016-02-11T08:50:28+00:00" itemprop="datePublished">Feb 11, 2016</time></p>
+
+                <hr class="author-details__spacer">
+
+                  <a href="/author/michelle">
+                      <h3 class="author-details__name">Michelle Jones</h3>
+                  </a>
+                  <p class="author-details__bio">Devoted social media fan. Travel practitioner. General pop culture fanatic. Passionate beer enthusiast.</p>
+                  <p class="author-details__extra"> London, England / <a  class="author-details__link" href="http://writingontheroad.COM">http://writingontheroad.COM</a></p>
+
+                  
+
+  <a class="social-icon" href="http://twitter.com/michellejoneswriter"><i class="fa fa-twitter"></i></a>
+
+
+  <a class="social-icon" href="http://facebook.com/michellejoneswriter"><i class="fa fa-facebook-official"></i></a>
+
+
+<a class="social-icon" href="http://instagram.com/michellejoneswriter"><i class="fa fa-instagram"></i></a>
+
+
+  <a class="social-icon" href="http://tumblr.com/michellejoneswriter"><i class="fa fa-tumblr"></i></a>
+
+
+  <a class="social-icon" href="http://dribbble.com/michellejoneswriter"><i class="fa fa-dribbble"></i></a>
+
+
+  <a class="social-icon" href="http://github.com/michellejoneswriter"><i class="fa fa-github-alt"></i></a>
+
+
+  <a class="social-icon" href="http://gogole.com/michellejoneswriter"><i class="fa fa-google-plus"></i></a>
+
+
+
+  <a class="social-icon" href="http://github.com/michellejoneswriter"><i class="fa fa-reddit-square"></i></a>
+
+
+  <a class="social-icon" href="http://example.com/michellejoneswriter"><i class="fa fa-vine"></i></a>
+
+
+  <a class="social-icon" href="http://example.com/michellejoneswriter"><i class="fa fa-vimeo"></i></a>
+
+
+  <a class="social-icon" href="http://example.com/michellejoneswriter"><i class="fa fa-snapchat-ghost"></i></a>
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+  
+<section class="post-prev-next">
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-5 col-sm-offset-1">
+
+            
+            <a class="read-more read-more--prev" href="/latest-travel-video">
+                <section class="post">
+                    <h3 class="read-more__subtitle"><i class="fa fa-chevron-left"></i>Previous article</h3>
+                    <h2 class="read-more__title">Latest Travel Video</h2>
+                </section>
+            </a>
+            
+        </div>
+        <div class="col-xs-12 col-sm-5 ">
+            
+            <a class="read-more read-more--next " href="/its-not-always-that-simple">
+                <section class="post">
+                    <h3 class="read-more__subtitle">Next article<i class="fa fa-chevron-right"></i></h3>
+
+                    <h2 class="read-more__title">Its Not Always That Simple </h2>
+                </section>
+            </a>
+            
+        </div>
+    <div>
+</section>
+
+}
+
+
+    <script type="text/javascript" src="/demo/lens-jekyll-1-0//js/vendor/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="/demo/lens-jekyll-1-0//js/vendor/modernizr.custom.32229-2.8-respondjs-1-4-2.js"></script>
+    <script type="text/javascript" src="/demo/lens-jekyll-1-0//js/vendor/jquery.jpanelmenu.min.js"></script>
+    <script type='text/javascript' src="/demo/lens-jekyll-1-0//js/vendor/fastclick.min.js"></script>
+    <script type='text/javascript' src="/demo/lens-jekyll-1-0//js/vendor/jquery.fitvids.js"></script>
+    
+
+    <script type="text/javascript" src="/demo/lens-jekyll-1-0//js/index.js"></script>
+
+  </body>
+
+</html>
