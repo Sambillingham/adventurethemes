@@ -3,7 +3,7 @@ title: Adventure Themes
 email: your-email@domain.com
 description: > # Beatutiful Responsive HTML themes for Entrepreneurs, Startups and creatives. Powering over 903 websites.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://adventurethemes.com" # the base hostname & protocol for your site
+url: "adventurethemes.com" # the base hostname & protocol for your site
 twitter_username: sam_billingham
 github_username:  Sambillingham
 permalink: :title
